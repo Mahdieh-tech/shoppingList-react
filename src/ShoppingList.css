@@ -1,0 +1,159 @@
+/* General container */
+.shopping-container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.shopping-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input section */
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+.input-section input:focus {
+  border-color: #4caf50;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.input-section button:hover {
+  opacity: 0.9;
+}
+
+.input-section button:first-of-type {
+  background: #4caf50;
+  color: white;
+}
+
+.input-section .clear-btn {
+  background: #f44336;
+  color: white;
+}
+
+/* Suggestions dropdown */
+.suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.suggestions li:hover {
+  background: #f0f0f0;
+}
+
+/* Shopping list items */
+.shopping-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.shopping-list li {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  margin: 6px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.shopping-list li:hover {
+  background: #f1f1f1;
+}
+
+/* Done state */
+.shopping-list li.done {
+  background: #e7f9e7;
+  text-decoration: line-through;
+  color: #555;
+}
+
+/* Checkbox button */
+.check-btn {
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  background: white;
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.check-btn.checked {
+  border-color: #4caf50;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+/* Item name */
+.item-name {
+  flex-grow: 1;
+  font-size: 15px;
+}
+
+/* Delete button */
+.delete {
+  color: #f44336;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.delete:hover {
+  color: #d32f2f;
+}
+
+/* Counter */
+.count {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
