@@ -15,3 +15,6 @@ Item suggestions using OpenFoodFacts API
 
 Note:
 This project is for practice purposes to learn React basics, state management, and API integration.
+
+
+![Shopping List Screenshot](images/screenshot.png)
